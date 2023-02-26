@@ -1,0 +1,439 @@
+  @font-face{
+    font-family: 'calibri';
+    src: url("../src/fonts/calibri regular/ofont.ru_Calibri.ttf");
+}
+
+@font-face{
+    font-family: 'Franklin Gothic';
+    src: url("../src/fonts/Franklin Gothic regular/ofont.ru_Franklin Gothic.ttf");
+}  
+
+@font-face{
+    font-family: 'Impact';
+    src: url("../src/fonts/Impact Regular/Impact.ttf")
+}
+
+body{
+    font-family: 'calibri';
+    width: 1920px;
+    height: auto;
+}
+nav{
+    background: #344051;
+    width: 100%;
+    height: 60px;
+}
+.logo{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic';
+    line-height: 60px;
+    margin-left: 388px;
+    float: left;
+}
+.menu{
+    float:left;
+    padding-left: 443px;
+}
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #ffffff;
+    margin-right: 50px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic';
+    text-transform: uppercase;
+}
+.main{
+    width: 100%;
+    height:1015px;
+    background: url("../img/boy.png") 984px 105px/auto no-repeat local, url("../img/bg.jpg") center/cover no-repeat local; 
+}
+.contain{
+    float: left;
+    margin: 432px 0px 0px 298px;
+    color: #2c384a;
+    text-align: center;
+}
+.contain h1{
+    font-size: 79px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic';
+}
+.contain h3{
+    font-size: 20px;
+    margin-top: 31px;
+    color: #79818c;
+    font-family: 'Franklin Gothic';
+}
+.contain button{
+    height: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic';
+    border: 2px solid #6d7682;
+    border-radius: 4px;
+    color: #6d7682;
+    font-size: 19px;
+    margin: 55px 14px 0px 14px;
+    background: none;
+    padding: 0px 14px;
+}
+.me{
+    width: 100%;
+    height: 717px;
+    background-color: #fcfdfd;
+    text-align: center;
+    box-shadow: 0px -10px 20px 0px rgba(199, 204, 211, 1);   
+}
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic';
+    text-transform: uppercase;
+    font-size: 33px;
+    color: #263244;
+    padding-top: 108px;
+}
+hr {
+    margin-top: 31px;
+    background-color: #d17700;
+    height: 4px;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.me img{
+    margin-top: 59px;
+}
+.me p{
+    margin-top: 22px;
+    margin-bottom: 18px;
+    font-size: 17px;
+    color: #3f495a;
+}
+.me button{
+    margin-top: 36px;
+    background: url("..//img/icons%201.png") no-repeat 11px;
+    border: 2px solid #6f707e;
+    border-radius: 5px;
+    height: 34px;
+    text-align: center;
+    font-size: 16px;
+    color: #6f707e;
+    padding: 0px 11px 0px 31px;
+    font-family: 'Franklin Gothic';
+}
+.help {
+    width: 100%;
+    height: 522px;
+    background: url("../img/image%20fon.jpg") no-repeat;
+}
+.design {
+    height: 160px;
+    width: 210px;
+    margin-top: 111px;
+    float: left;
+    text-align: center;
+    margin-right: 80px;
+}
+.design h4{
+    color: #cf7600;
+    font-size: 18px;
+    font-family: 'Franklin Gothic';
+    margin: 35px auto 20px auto;
+}
+.design p{
+    color: #515a69;
+    font-size: 16px;
+}
+.block {
+    margin: auto 22%;
+    width: 100%;
+    
+
+}
+.keys hr{
+    margin-bottom: 23px;
+}
+.keys{
+    color: #515a69;
+    text-align: center;
+    height: 1144px; 
+}
+.keys img{
+    margin-top: 42px;
+    margin-bottom: 27px;
+}
+.client {
+    text-align: left;
+    padding-left: 388px;
+    display: block;
+    width: 572px;
+    float: left;
+    font-size: 16px; 
+}
+
+.client h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Franklin Gothic';
+    display: block;
+    margin-bottom: 14px;
+    margin-top: 14px; 
+}
+
+.client button{ 
+    margin-top: 23px;
+    padding: ;
+    border-radius: 4px;
+    background-color: #63b5ae;
+    width: 206px;
+    height: 44px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic';
+}
+
+.proect {
+    margin-left: 674px;
+    margin-top: 23px;
+    width: 848px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.proect h3{
+    font-size: 25px;
+    font-family: 'Franklin Gothic';
+    margin-bottom: 12px;
+    margin-top: 14px;
+}
+
+.cell {
+    text-align: center; 
+}
+.cell h3{
+    font-size: 30px;
+    font-family: 'Franklin Gothic';
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px; 
+}
+
+.cell select{
+    font-family: 'Franklin Gothic';
+    text-align: center;
+    font-size: 16px;
+    margin-top: 24px;
+    background-color: #eeeeee;
+    height: 57px;
+    width: 890px;
+}
+
+.sroki{
+    margin-left: 515px;
+    margin-top: 56px;
+    padding-top: 26px;
+    border-top: 2px solid #d1d1d1; 
+    width: 890px; 
+}
+
+.sroki table{
+    border-spacing: 790px 0px;
+    margin-left: -790px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic';
+}
+
+.statistics{
+    height: 500px;
+    background: url("..//img/stat/statistics_0006s_0000_%D1%84%D0%BE%D0%BD.jpg") no-repeat;
+    margin-top: 157px;
+    color: #323e4f;
+}
+
+.stat{
+    height: 230px;
+    width: 200px;
+    margin-top: 84px;
+    float: left;
+    text-align: center;
+    margin-right: 150px;
+}
+
+.stat h2{
+    padding-top: 33px;
+    margin-bottom: 33px;
+    font-size: 37px;
+    color: #323e4f;
+    font-family: 'Impact'
+}
+
+.stat p{
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+    color: #323e4f;
+    text-transform: uppercase;
+}
+
+.blockstat{
+     margin: auto 18%;
+    width: 100%; 
+}
+
+.otzovik{
+    text-align: center;
+    width: auto;
+    height: 593px;
+}
+
+.otzovik img{
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+.otzovik p{
+    display: block;
+    width: 940px;
+    margin: auto 25%;
+    font-size: 16px;
+    font-family: 'calibri' 
+}
+
+.direct{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'calibri';    
+}
+
+.otzovik input{
+    margin: 50px 8px 0px 8px;
+   
+    display: none;
+}
+
+label{
+    display: inline-block;
+    margin: 50px 8px 0px 8px;
+}
+i{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: .1px solid #cfd2d7;
+    position: relative;
+}
+input[type="radio"]+i{
+    border-radius: 50%;
+    background: #cfd2d7
+}
+i:before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: #c96500;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .1s;
+}
+
+input:checked+i:before{
+   opacity: 1;
+}
+
+.contact{
+    background: url(../img/contacts/fon.png) no-repeat;
+    width: auto;
+    height: 805px;
+    color: white;
+    font-size: 16px;
+    font-family: 'calibri';
+    text-align: center;
+}
+.contact p{
+    margin-top: 30px;
+}
+.contact h2{
+    color: white;
+    font-family: 'Franklin Gothic';
+}
+.dan{
+    width: 770px;
+    height: 74px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.info{
+    float: left;
+    width: 154px;
+    height: 74px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'calibri';
+    font-size: 16px;
+}
+
+.message h3{
+    font-family: 'Franklin Gothic';
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.message input{
+    width: 352px;
+    height: 35px;
+    margin: 45px 11px 15px 11px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+    
+}
+
+.message textarea{
+    width: 732px;
+    height: 92px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+}
+
+.message button{
+    background-color: transparent;
+    margin-top: 28px;
+    width: 125px;
+    height: 46px;
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic';
+    color: white;
+}
+
+.icons img{
+    margin-top: 55px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.karta{
+    width: auto;
+    height: 347px;
+}
+
+.copy{
+    width: auto;
+    height: 93px;
+    background-color: #354051;
+    text-align: center;
+    font-size: 13px;
+    font-family: serif;
+    color: white;
+    padding-top: 41px
+     
+}
